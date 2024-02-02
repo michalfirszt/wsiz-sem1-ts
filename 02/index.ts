@@ -13,15 +13,15 @@ const checkArgumentType = (params: number | string | null) => {
     }
 }
 
-const addNumbers = (number1: number, number2: number): number => {
-    const result: number = number1 + number2
+// const addNumbers = (number1: number, number2: number): number => {
+//     const result: number = number1 + number2
 
-    return result
-}
+//     return result
+// }
 
-const functionResult = addNumbers(1, 2)
+// const functionResult = addNumbers(1, 2)
 
-console.log(functionResult)
+// console.log(functionResult)
 
 // checkArgumentType(2)
 // checkArgumentType('Hello')
